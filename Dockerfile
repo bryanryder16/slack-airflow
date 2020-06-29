@@ -2,7 +2,7 @@ FROM python:3.7-slim-stretch
 
 # Secrets
 ENV weather_api_key= 032d3170d426f2055a9fc5eaed5a62f8
-ENV slack_webhook_url=
+ENV slack_webhook_url=https://hooks.slack.com/services/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
 
 # Airflow
 ARG AIRFLOW_VERSION=1.10.10
